@@ -1,0 +1,90 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Home section */
+.home {
+  background: linear-gradient(180deg, rgb(85.36, 112.62, 144.62) 79.27%, rgba(186, 189, 141, 0.56) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home .image {
+  max-height: 476px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.home .Zizi {
+  max-height: 158px;
+  max-width: 100%;
+  margin-top: 2rem;
+}
+
+.home .overlap-group {
+  background-color: #131212;
+  border-radius: 34px;
+  height: 77px;
+  width: 242px;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .text-wrapper {
+  color: #fff6f6;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.home .linked-in,
+.home .git-hub {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+/* Navigation */
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav .navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav .navigation li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav .logo {
+  height: 60px;
+  object-fit: cover;
+}
