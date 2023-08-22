@@ -104,7 +104,7 @@
   object-fit: cover;
 }
 /* AboutMe Section */
-.about-me {
+/* .about-me {
   background: linear-gradient(
     180deg,
     rgb(60.11, 130.12, 157.37) 0%,
@@ -177,4 +177,241 @@
   position: absolute;
   top: 1016px;
   width: 100px;
+} */
+
+.about-me {
+  background: linear-gradient(
+    180deg,
+    rgb(60, 130, 157) 0%,
+    rgba(22, 117, 153, 0.69) 83.85%,
+    rgba(22, 117, 153, 0) 100%
+  );
+  background-color: rgba(255, 255, 255, 1);
+  height: 1116px;
+  position: relative;
+  width: 1368px;
+}
+
+.about-me .mee {
+  height: 632px;
+  left: 109px;
+  object-fit: cover;
+  position: absolute;
+  top: 162px;
+  width: 409px;
+  border-radius: 100px;
+}
+
+.about-me .my-name-is-zizile {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  left: 638px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 325px;
+  width: 607px;
+}
+
+.about-me .overlap-group {
+  background-color: #100e0e;
+  border-radius: 34px;
+  height: 77px;
+  left: 752px;
+  position: absolute;
+  top: 717px;
+  width: 207px;
+}
+
+.about-me .text-wrapper {
+  color: #fffcfc;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 24px;
+}
+
+.about-me .download-removebg {
+  height: 100px;
+  left: 109px;
+  object-fit: cover;
+  position: absolute;
+  top: 1016px;
+  width: 100px;
+}
+
+.about-me .img {
+  height: 100px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 1016px;
+  width: 100px;
+}
+
+/* ReadMoreButton Page */
+.read-more-button {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.read-more-button .div {
+  background: linear-gradient(180deg, rgb(60, 130, 157) 86.62%, rgba(243.43, 238.02, 238.02, 0) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  height: 1229px;
+  position: relative;
+  width: 1368px;
+}
+
+.read-more-button .my-name-is-zizile {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 190px;
+  width: 615px;
+}
+
+.read-more-button .technical-skills {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 709px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 190px;
+  width: 633px;
+}
+
+.read-more-button .personal-touch {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  left: 709px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 678px;
+  width: 636px;
+}
+
+.read-more-button .download-removebg {
+  height: 100px;
+  left: 129px;
+  object-fit: cover;
+  position: absolute;
+  top: 1102px;
+  width: 100px;
+}
+
+.read-more-button .img {
+  height: 100px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 1102px;
+  width: 100px;
+}
+
+.read-more-button .nav-bar {
+  height: 117px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1368px;
+}
+
+.read-more-button .logo {
+  height: 93px;
+  left: 69px;
+  object-fit: cover;
+  position: fixed;
+  top: 10px;
+  width: 120px;
+}
+
+.read-more-button .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 324px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  top: 38px;
+}
+
+.read-more-button .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 477px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  top: 38px;
+}
+
+.read-more-button .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 716px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  top: 38px;
+}
+
+.read-more-button .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 909px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  top: 38px;
+}
+
+.read-more-button .rectangle {
+  background-color: #000000;
+  border-radius: 90px;
+  height: 60px;
+  left: 1099px;
+  position: fixed;
+  top: 31px;
+  width: 227px;
+}
+
+.read-more-button .text-wrapper-5 {
+  color: #ee3131;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1152px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: fixed;
+  top: 41px;
 }
