@@ -1,6 +1,10 @@
 import React from 'react'
 import Image1 from "../assets/images/mee.png"
 import "../App.css"
+import ReadMore from './Readmore';
+// import ReadMore from "../Components/Readmore"
+import { Link, Router } from "react-router-dom";
+// import ReadMore from './Readmore';
 
 export default function About() {
   return (
@@ -14,8 +18,11 @@ export default function About() {
             skills and contribute to advanced projects.
           </p>
           <div className="overlap-group">
-            {/* <a href="#read-more" className="text-wrapper">Read more</a> */}
-            <button className="custom-button">Read More</button>
+            <a href="Readmore()" className="text-wrapper">Read more</a>
+            
+              
+         
+               
           </div>
         </div>
      

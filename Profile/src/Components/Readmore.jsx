@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
+import "../App.css";
 
 function ReadMore() {
     return (
-        <div className="read-more-button">
+        <div className="read-more-button" id="readMore">
             <div className="div">
                 <p className="my-name-is-zizile">
                     My name is Zizile Ngcem, I&#39;m a young and motivated software developer intern with a strong desire to
@@ -51,7 +51,7 @@ function ReadMore() {
                 <div className="text-wrapper-5">Hire me</div>
 
                 {/* Adding the button */}
-                <button className="custom-button">Read More</button>
+                {/* <button className="custom-button">Read More</button> */}
             </div>
         </div>
     );

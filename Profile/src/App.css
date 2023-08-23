@@ -104,81 +104,6 @@
   object-fit: cover;
 }
 /* AboutMe Section */
-/* .about-me {
-  background: linear-gradient(
-    180deg,
-    rgb(60.11, 130.12, 157.37) 0%,
-    rgba(22.44, 117.03, 153.85, 0.69) 83.85%,
-    rgba(22.44, 117.03, 153.85, 0) 100%
-  );
-  background-color: rgba(255, 255, 255, 1);
-  height: 1116px;
-  position: relative;
-  width: 1368px;
-}
-
-.about-me .rectangle {
-  height: 632px;
-  left: 109px;
-  object-fit: cover;
-  position: absolute;
-  top: 162px;
-  width: 409px;
-}
-
-.about-me .my-name-is-zizile {
-  color: #ffffff;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 28px;
-  font-weight: 400;
-  left: 638px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 325px;
-  width: 607px;
-}
-
-.about-me .overlap-group {
-  background-color: #100e0e;
-  border-radius: 34px;
-  height: 77px;
-  left: 752px;
-  position: absolute;
-  top: 717px;
-  width: 207px;
-}
-
-.about-me .text-wrapper {
-  color: #fffcfc;
-  font-family: "Inter-Regular", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  left: 37px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 24px;
-}
-
-.about-me .download-removebg {
-  height: 100px;
-  left: 109px;
-  object-fit: cover;
-  position: absolute;
-  top: 1016px;
-  width: 100px;
-}
-
-.about-me .img {
-  height: 100px;
-  left: 9px;
-  object-fit: cover;
-  position: absolute;
-  top: 1016px;
-  width: 100px;
-} */
-
 .about-me {
   background: linear-gradient(
     180deg,
@@ -187,41 +112,43 @@
     rgba(22, 117, 153, 0) 100%
   );
   background-color: rgba(255, 255, 255, 1);
-  height: 1116px;
+  height: 100vh;
   position: relative;
-  width: 1368px;
+  width: 100%;
 }
 
 .about-me .mee {
-  height: 632px;
-  left: 109px;
+  height: 80vh;
+  left: 10%;
   object-fit: cover;
   position: absolute;
-  top: 162px;
-  width: 409px;
+  top: 20vh;
+  width: auto;
+  max-width: 30%;
   border-radius: 100px;
 }
 
 .about-me .my-name-is-zizile {
   color: #ffffff;
   font-family: "Inter-Regular", Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
-  left: 638px;
+  left: 50%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 325px;
-  width: 607px;
+  top: 40vh;
+  /* width: 607px; */
+ 
 }
 
 .about-me .overlap-group {
   background-color: #100e0e;
   border-radius: 34px;
   height: 77px;
-  left: 752px;
+  left: 900px;
   position: absolute;
-  top: 717px;
+  top: 500px;
   width: 207px;
 }
 
@@ -262,6 +189,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  cursor: pointer;
 }
 
 .read-more-button .div {
