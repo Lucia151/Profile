@@ -1,9 +1,9 @@
 import React from 'react'
 import Image1 from "../assets/images/mee.png"
 import "../App.css"
-import ReadMore from './Readmore';
+import Myfooter from "../Components/myfooter";
 // import ReadMore from "../Components/Readmore"
-import { Link, Router } from "react-router-dom";
+// import { Link, Router } from "react-router-dom";
 // import ReadMore from './Readmore';
 
 export default function About() {
@@ -24,6 +24,7 @@ export default function About() {
          
                
           </div>
+          <Myfooter />
         </div>
      
   )

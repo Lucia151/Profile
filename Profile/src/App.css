@@ -22,30 +22,47 @@
 }
 
 .home .image {
-  height: 400px;
-  width: 25%;
-  border-radius: 20%;
+  height: 330px;
+  width: 24%;
+  border-radius: 8%;
   left: 10px;
 }
 
-.home .Zizi {
+/* .home .Zizi {
   height: 200px;
   max-width: 800px;
   margin-top: 1rem;
 
-
- 
+} */
+/* .home.Zizi {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 10px;
 }
+
+.Zizi h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 10px;
+} */
+
 
 .home .button {
   background-color: #070606;
   border-radius: 34px;
   height: 77px;
-  width: 242px;
-  margin-top: 10rem;
+  width: 240px;
+  margin-top: 9rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .home .text-wrapper {
@@ -120,13 +137,13 @@
     rgba(22, 117, 153, 0) 100%
   );
   background-color: rgba(255, 255, 255, 1);
-  height: 100vh;
+  height: 130vh;
   position: relative;
   width: 100%;
 }
 
 .about-me .mee {
-  height: 80vh;
+  height: 70vh;
   left: 10%;
   object-fit: cover;
   position: absolute;
@@ -695,3 +712,5 @@
   top: 1016px;
   width: 100px;
 }
+ /* Contacts */
+ 

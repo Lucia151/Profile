@@ -2,7 +2,6 @@ import background from '../assets/images/Home.png'
 import Logo from '../assets/images/logo.png'
 import "../App.css"
 import React from 'react'
-
 import Myfooter from "../Components/myfooter";
 
 export default function index() {
