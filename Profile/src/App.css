@@ -343,3 +343,345 @@
   position: fixed;
   top: 41px;
 }
+
+/* Projects Section */
+.projects {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(153.36, 201.66, 233.54, 0.25) 15.07deg,
+    rgba(152.14, 102.44, 102.44, 0) 43.08deg,
+    rgba(63.21, 138.9, 181.48, 0.62) 159.89deg,
+    rgb(16, 86, 110) 246.88deg
+  );
+  background-color: rgba(255, 255, 255, 1);
+  height: 1116px;
+  position: relative;
+  width: 1368px;
+}
+
+.projects .bank {
+  display: block;
+  height: 330px;
+  left: 542px;
+  object-fit: cover;
+  position: absolute;
+  top: 239px;
+  width: 260px;
+  border-radius: 20%;
+}
+
+.projects .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 355px;
+  left: 953px;
+  padding: 10px;
+  position: absolute;
+  top: 239px;
+  width: 258px;
+}
+
+.projects .chat {
+  height: 330px;
+  margin-bottom: -16px;
+  margin-right: -37px;
+  object-fit: cover;
+  position: relative;
+  width: 260px;
+  border-radius: 20%;
+}
+
+.projects .Tax {
+  display: block;
+  height: 330px;
+  left: 100px;
+  object-fit: cover;
+  position: absolute;
+  top: 239px;
+  width: 260px;
+  border-radius: 20%;
+}
+
+.projects .overlap {
+  background-color: #3f8bb5;
+  border-radius: 23px;
+  height: 250px;
+  left: 496px;
+  position: absolute;
+  top: 633px;
+  width: 409px;
+}
+
+.projects .overlap-group {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 283px;
+  position: absolute;
+  top: 109px;
+  width: 120px;
+}
+
+.projects .text-wrapper {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}
+
+.projects .div {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 35px;
+}
+
+.projects .div-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 5px;
+  position: absolute;
+  top: 106px;
+  width: 120px;
+}
+
+.projects .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+}
+
+.projects .overlap-2 {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 144px;
+  position: absolute;
+  top: 106px;
+  width: 120px;
+}
+
+.projects .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+}
+
+.projects .overlap-3 {
+  background-color: #3f8bb5;
+  border-radius: 40px;
+  height: 250px;
+  left: 941px;
+  position: absolute;
+  top: 633px;
+  width: 409px;
+}
+
+.projects .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 95px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
+
+.projects .overlap-4 {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 107px;
+  position: absolute;
+  top: 162px;
+  width: 195px;
+}
+
+.projects .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.projects .overlap-5 {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 66px;
+  position: absolute;
+  top: 103px;
+  width: 120px;
+}
+
+.projects .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+}
+
+.projects .overlap-6 {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 204px;
+  position: absolute;
+  top: 103px;
+  width: 120px;
+}
+
+.projects .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+}
+
+.projects .overlap-group-2 {
+  background-color: #3f8bb5;
+  border-radius: 23px;
+  height: 250px;
+  left: 39px;
+  position: absolute;
+  top: 633px;
+  width: 415px;
+}
+
+.projects .overlap-7 {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 113px;
+  position: absolute;
+  top: 168px;
+  width: 158px;
+}
+
+.projects .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+}
+
+.projects .text-wrapper-9 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 105px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 31px;
+}
+
+.projects .overlap-8 {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 50px;
+  position: absolute;
+  top: 103px;
+  width: 120px;
+}
+
+.projects .text-wrapper-10 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}
+
+.projects .overlap-9 {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  height: 51px;
+  left: 240px;
+  position: absolute;
+  top: 106px;
+  width: 120px;
+}
+
+.projects .text-wrapper-11 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}
+
+.projects .download-removebg {
+  height: 100px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 1016px;
+  width: 100px;
+}
+
+.projects .download-removebg-2 {
+  height: 100px;
+  left: 100px;
+  object-fit: cover;
+  position: absolute;
+  top: 1016px;
+  width: 100px;
+}

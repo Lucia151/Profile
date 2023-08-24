@@ -1,17 +1,21 @@
 import React from 'react'
 import About from "./Components/About"
-import Project from "./Components/Projects"
-import Home from "./Components/Landing"
-import NavBar from './Components/NavBar'
+import Home from "./Components/Landing";
+// import NavBar from './Components/NavBar'
+import Experience from './Components/Experience';
+import Projects from "./Components/Projects";
+import "tailwindcss/tailwind.css"
+
 
 function App() {
 
   return (
     <>
-    <NavBar/>
-    <Home/>
-    <About/>
-    
+    {/* <NavBar/> */}
+    <Home />
+    <About />
+    <Experience />
+    <Projects/>
 
     </>
   );
