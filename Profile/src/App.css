@@ -6,13 +6,16 @@
 }
 
 /* Home section */
-.home {
+.home1{
   background: linear-gradient(180deg, rgb(85.36, 112.62, 144.62) 79.27%, rgba(186, 189, 141, 0.56) 100%);
   background-color: rgba(255, 255, 255, 1);
+}
+.home {
+
   display: flex;
-  flex-direction: row-reverse; /* Move the image to the right */
+  flex-direction: row-reverse; 
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   min-height: 100vh;
   padding: 2rem;
   text-align: center;
@@ -20,23 +23,26 @@
 
 .home .image {
   height: 400px;
-  width: 30%;
+  width: 25%;
   border-radius: 20%;
+  left: 10px;
 }
 
 .home .Zizi {
   height: 200px;
-  max-width: 1000px;
+  max-width: 800px;
   margin-top: 1rem;
+
+
  
 }
 
-.home .overlap-group {
+.home .button {
   background-color: #070606;
   border-radius: 34px;
   height: 77px;
   width: 242px;
-  margin-top: 15rem;
+  margin-top: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,11 +54,13 @@
   font-size: 26px;
   font-weight: 400;
   margin-top: 1rem;
-  text-align: left; /* Align text to the left */
+  text-align: left; 
   padding-left: 2rem;
 }
 
-.home .linked-in{
+/* footer */
+
+.footer .linked-in{
   height: 100px;
   width: 100px;
   object-fit: cover;
@@ -61,7 +69,7 @@
   bottom: 0;
   left: 120px;
 }
-.home .git-hub {
+.footer .git-hub {
   height: 100px;
   width: 100px;
   object-fit: cover;
@@ -79,7 +87,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  background-color: rgba(233, 239, 242, 0.5);
+  background-color: rgba(59, 88, 102, 0.5);
   position: fixed;
   top: 0;
   left: 0;
@@ -354,15 +362,15 @@
     rgb(16, 86, 110) 246.88deg
   );
   background-color: rgba(255, 255, 255, 1);
-  height: 1116px;
+  height: 160vh;
   position: relative;
-  width: 1368px;
+  width: 100%;
 }
 
 .projects .bank {
   display: block;
   height: 330px;
-  left: 542px;
+  left: 590px;
   object-fit: cover;
   position: absolute;
   top: 239px;
@@ -380,7 +388,7 @@
   padding: 10px;
   position: absolute;
   top: 239px;
-  width: 258px;
+  width: 260px;
 }
 
 .projects .chat {
@@ -391,6 +399,8 @@
   position: relative;
   width: 260px;
   border-radius: 20%;
+  left: 65px;
+
 }
 
 .projects .Tax {

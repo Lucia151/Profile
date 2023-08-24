@@ -4,6 +4,7 @@ import imageb from "../assets/images/bank.png";
 import imageC from "../assets/images/chatApp.png";
 import imageT from "../assets/images/calculator.png";
 
+
 export default function Projects() {
   return (
     
@@ -54,8 +55,9 @@ export default function Projects() {
           <div className="text-wrapper-11">CSS</div>
         </div>
       </div>
-      <img className="download-removebg" alt="Download removebg" src="download-1-removebg-preview-4.png" />
-      <img className="download-removebg-2" alt="Download removebg" src="download-1-removebg-preview-3.png" />
+      {/* <img className="download-removebg" alt="Download removebg" src="download-1-removebg-preview-4.png" />
+      <img className="download-removebg-2" alt="Download removebg" src="download-1-removebg-preview-3.png" /> */}
+    
     </div>
  
   )
