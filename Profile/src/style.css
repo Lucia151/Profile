@@ -183,3 +183,81 @@
     white-space: nowrap;
   }
   
+
+  /* asdfgh */
+  /* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Custom styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .line {
+    width: 1px;
+    height: 100%;
+    background-color: #667eea;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    width: calc(33.33% - 1rem);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    height: 150px;
+    background-size: cover;
+  }
+  
+  .frontend {
+    background-image: url('./frontendImg.png');
+  }
+  
+  .backend {
+    background-image: url('./backendImg.png');
+  }
+  
+  .apps {
+    background-image: url('./appsImg.png');
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
