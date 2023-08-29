@@ -1,7 +1,7 @@
 import React from 'react'
 import frontend from "../../src/assets/images/frontend.png";
 import backend from "../../src/assets/images/backend.png"
-import "../../src/index.css"
+
 
 export default function Experience() {
   return (
