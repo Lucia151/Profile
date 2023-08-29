@@ -21,13 +21,13 @@ export default function index() {
       </div>
       <img className="image" alt="Rectangle" src={background} />
       <div className="Zizi"><h1> hi, I’m Zizile Ngcem</h1>
-        <p>A junior Software Developer
+        <p className="para">A junior Software Developer
           At Younglings</p>
 
           
-      <div className="button">
+      {/* <div className="button">
         <div className="text-wrapper">Download cv</div>
-      </div>
+      </div> */}
      
       </div>
 
