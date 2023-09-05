@@ -1,12 +1,13 @@
 import React from 'react'
 import frontend from "../../src/assets/images/frontend.png";
 import backend from "../../src/assets/images/backend.png"
+import Myfooter from "../Components/myfooter";
 
 
 export default function Experience() {
   return (
 
-    <div style={{ display: "flex", flexDirection: "column", justifyContent: "s", paddingTop: "1rem" }}>
+    <div style={{ display: "flex", flexDirection: "column", justifyContent: "s", paddingTop: "1rem", backgroundColor: "blue", height: "100vh" }}>
       {/* <div style={{ width: "100%", paddingTop: "0.75rem", maxWidth: "18rem", margin: "auto", padding: "0" }}> */}
         <div style={{ position: "relative", backgroundcolor: "#345676", fontFamily: "sans-serif", fontSize: "0.875rem", fontWeight: "bold" }}>
           {/* ========== vertical line running through the middle ========== */}
@@ -210,6 +211,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
+        <Myfooter />
       </div>
     // </div>
 

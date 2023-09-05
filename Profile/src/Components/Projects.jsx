@@ -3,6 +3,7 @@ import "../App.css"
 import imageb from "../assets/images/bank.png";
 import imageC from "../assets/images/chatApp.png";
 import imageT from "../assets/images/calculator.png";
+import Myfooter from "../Components/myfooter";
 
 
 export default function Projects() {
@@ -57,7 +58,7 @@ export default function Projects() {
       </div>
       {/* <img className="download-removebg" alt="Download removebg" src="download-1-removebg-preview-4.png" />
       <img className="download-removebg-2" alt="Download removebg" src="download-1-removebg-preview-3.png" /> */}
-    
+      <Myfooter/>
     </div>
  
   )
